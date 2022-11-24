@@ -14,6 +14,8 @@ function AccordionCard() {
     }
   };
 
+  console.log('asd');
+
   return (
     <div className={styles.cardContainer}>
       {DATA.map((item) => (
